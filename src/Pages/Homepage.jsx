@@ -5,7 +5,6 @@ import { DiMongodb } from "react-icons/di";
 import { SiExpress } from "react-icons/si";
 import { FaNodeJs } from "react-icons/fa";
 import { useMemo } from 'react';
-import { FaArrowRight } from "react-icons/fa";
 
 const Homepage = () => {
 
