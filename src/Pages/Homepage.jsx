@@ -82,7 +82,7 @@ const Homepage = () => {
       <div className='my-10'>
         <h3 className='text-3xl font-bold font-inter'> Contact Me </h3>
         <div className='flex gap-5  justify-center items-center text-3xl'><img src={gmail} width={50} alt='contactimg' /><div>mhdnaveed18@gmail.com</div></div>
-        <div className=' text-8xl flex flex-row md:flex-row justify-around space-y-10 items-center  '>
+        <div className=' text-8xl flex flex-col md:flex-row justify-around space-y-10 items-center  '>
           <Link to={'https://www.instagram.com/naveedx7/'} target="_blank" > <FaInstagramSquare /> </Link>
           <Link to={'https://github.com/Mhdnaveed18'} target='_blank'> <FaGithub /> </Link>
           <Link to={'https://www.upwork.com/freelancers/~01be91d7fae8fb7334'} target='_blank'> <FaUpwork /> </Link>
