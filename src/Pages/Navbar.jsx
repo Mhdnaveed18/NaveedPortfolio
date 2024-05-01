@@ -25,6 +25,7 @@ const Navbar = () => {
         <Link to={'/skills'} className={`${checklocation('/skills') ? 'orange-gradient' :''}`} >Skills</Link>
         <Link to={'/Education'} className={`${checklocation('/Education') ? 'orange-gradient' :''}`} >Education</Link>
         <Link to={'/Profession'} className={`${checklocation('/Profession') ? 'orange-gradient' :''}`} >Profession</Link>
+        <Link to={'/Contact'} className={`${checklocation('/Contact') ? 'orange-gradient' :''}`} >Contact</Link>
       </div>
     </div>
   )
