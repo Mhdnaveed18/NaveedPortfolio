@@ -5,6 +5,14 @@ import { DiMongodb } from "react-icons/di";
 import { SiExpress } from "react-icons/si";
 import { FaNodeJs } from "react-icons/fa";
 import { useMemo } from 'react';
+import {Link} from 'react-router-dom'
+import { FaInstagramSquare } from "react-icons/fa";
+import { FaUpwork } from "react-icons/fa6";
+import gmail from '../assets/gmail.svg';
+import { FaGithub } from "react-icons/fa";
+
+
+
 
 const Homepage = () => {
 
@@ -56,7 +64,6 @@ const Homepage = () => {
           </div>
           
       </div>
-
       
       <div className='flex text-8xl flex-row justify-between mb-10  '>
         <FaReact />
@@ -71,6 +78,18 @@ const Homepage = () => {
         <div>Having just embarked on this journey, I bring fresh perspectives, a hunger for challenges, and a dedication to delivering top-notch solutions tailored to your specific needs. Your satisfaction and success are my utmost priorities, and I am committed to going above and beyond to achieve them.</div>
         <div>I am eager to discuss how my skills and passion for MERN Stack development can contribute to the success of your projects. Please feel free to reach out at your earliest convenience to explore potential collaborations or discuss any inquiries you may have.</div>
       </div>
+
+      <div className='my-10'>
+        <h3 className='text-3xl font-bold font-inter'> Contact Me </h3>
+        <div className='flex gap-5  justify-center items-center text-3xl'><img src={gmail} width={50} /><div>mhdnaveed18@gmail.com</div></div>
+        <div className=' text-8xl flex justify-around space-y-10 items-center  '>
+          <Link to={'https://www.instagram.com/naveedx7/'} target="_blank" > <FaInstagramSquare /> </Link>
+          <Link to={'https://github.com/Mhdnaveed18'} target='_blank'> <FaGithub /> </Link>
+          <Link to={'https://www.upwork.com/freelancers/~01be91d7fae8fb7334'} target='_blank'> <FaUpwork /> </Link>
+        </div>
+      </div>
+    
+
     </div>
    
   )
