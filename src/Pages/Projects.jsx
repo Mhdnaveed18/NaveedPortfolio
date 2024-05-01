@@ -5,6 +5,7 @@ const Projects = () => {
   return (
     <div className='mx-auto w-10/12 '>
       <p className='text-6xl font-inter my-6 '>StudyNotion - EdTech Platform</p>
+      <p className='text-4xl font-inter mb-8 orange-gradient '> My Best Project </p>
       <video className='mx-auto' src={Studynotionvideo} loop autoPlay onPaste={true}></video> 
 
       <div className='text-start'>

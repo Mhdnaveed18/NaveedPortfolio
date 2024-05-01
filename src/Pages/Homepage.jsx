@@ -47,11 +47,11 @@ const Homepage = () => {
             <div className='font-bold text-3xl font-inter text-start '>
                 Hi! Naveed 
             </div>
-            <div className='text-3xl font-inter gap-1 relative  text-start w-[500px]'>
+            <div className='text-3xl font-inter gap-1 relative text-start w-[500px]'>
                 i am a <div className='orange-gradient'> <spam>{displayedText}</spam> </div>
             </div>
           </div>
-          <div className='flex justify-center translate-x-8'>
+          <div className='flex justify-center md:translate-x-8'>
               <div> <img className='rounded-lg' src={ProfilePicture} width={350} alt='profilephoto' /> </div>
           </div>
           
