@@ -10,7 +10,7 @@ const Contact = () => {
     <div>
       <div className='w-10/12 mx-auto mt-[100px] my-10'>
         <h3 className='text-3xl font-bold font-inter'> Contact Me </h3>
-        <div className='flex flex-col  md:flex-row  gap-5  justify-center items-center text-3xl'><img src={gmail} width={50} alt='contactimg' /><div>mhdnaveed18@gmail.com</div></div>
+        <div className='flex flex-col  md:flex-col  gap-5  justify-center items-center text-3xl'><img src={gmail} width={50} alt='contactimg' /><div>mhdnaveed18@gmail.com</div></div>
         <div className=' text-8xl flex flex-col md:flex-row justify-around space-y-10 items-center  '>
           <Link to={'https://www.instagram.com/naveedx7/'} target="_blank" > <FaInstagramSquare /> </Link>
           <Link to={'https://github.com/Mhdnaveed18'} target='_blank'> <FaGithub /> </Link>
